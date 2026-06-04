@@ -62,7 +62,7 @@ resource "aws_iam_role_policy" "lambda_cost_policy" {
           "s3:PutObject",
           "s3:GetObject"
         ]
-        Resource = "arn:aws:s3:::lab6-terraform-state-ACCOUNT_ID_REMOVED/*"
+        Resource = "arn:aws:s3:::${var.project_name}-${var.environment}-cost-reports/*"
       }
     ]
   })

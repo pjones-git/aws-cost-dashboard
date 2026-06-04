@@ -63,3 +63,8 @@ variable "dashboard_retention_days" {
   type        = number
   default     = 90
 }
+
+variable "aws_account_id" {
+  description = "AWS account ID used for resource naming"
+  type        = string
+}

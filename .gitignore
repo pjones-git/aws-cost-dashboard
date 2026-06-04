@@ -1,0 +1,60 @@
+
+# Terraform state files - contain sensitive infrastructure data
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Terraform variable files with secrets
+terraform.tfvars
+*.auto.tfvars
+
+# Terraform working directory
+.terraform/
+.terraform.lock.hcl
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# AWS credential files
+.aws/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Environment variable files
+.env
+.env.*
+*.env
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Log files
+*.log
+
+# Sensitive config files
+secrets.tf
+secrets.*.tf
+*credentials*
+*password*
+*passwd*
+*secret*
+*.tfplan
+*.zip
+response.json

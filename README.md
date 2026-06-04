@@ -2,6 +2,7 @@
 
 ## Overview
 This project deploys an automated AWS cost monitoring dashboard using:
+- Terraform (IaC)
 - AWS Lambda (cost data processor)
 - AWS Cost Explorer (cost data source)
 - Amazon CloudWatch (dashboard and metrics)

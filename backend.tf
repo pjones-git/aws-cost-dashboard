@@ -1,21 +1,10 @@
-
 terraform {
-
   backend "s3" {
-
-    bucket         = "lab6-terraform-state-ACCOUNT_ID_REMOVED"
-
-    key            = "cost-dashboard/terraform.tfstate"
-
-    region         = "us-east-1"
-
-    encrypt        = true
-
-    dynamodb_table = "lab6-terraform-locks"
-
-    profile        = "lab6"
-
+    bucket       = "dashboard-tfstate-git-2026"
+    key          = "cost-dashboard/terraform.tfstate"
+    region       = "us-east-1"
+    encrypt      = true
+    use_lockfile = true
+    profile      = "lab6"
   }
-
 }
-

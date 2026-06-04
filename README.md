@@ -1,4 +1,4 @@
-# AWS Cost Dashboard - Lab 6
+# AWS Cost Dashboard
 
 ## Overview
 This project deploys an automated AWS cost monitoring dashboard using:

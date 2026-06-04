@@ -26,6 +26,7 @@ when costs exceed the configured threshold.
 ![AWS Cost Dashboard Lab 6 Architecture](docs/architecture.png)
 
 ### Components
+- **Terraform** - IaC automation to buil & destroy resources
 - **EventBridge** - Triggers Lambda daily at 8am UTC
 - **Lambda** - Processes cost data from Cost Explorer
 - **Cost Explorer** - Source of monthly AWS spend data

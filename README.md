@@ -23,7 +23,7 @@ when costs exceed the configured threshold.
 
 ## Architecture
 
-![AWS Cost Dashboard Lab 6 Architecture](docs/architecture.svg)
+![AWS Cost Dashboard Lab 6 Architecture](docs/architecture.png)
 
 ### Components
 - **EventBridge** - Triggers Lambda daily at 8am UTC
